@@ -66,7 +66,7 @@ export const AuthProvider = ({ children }: { children: any }) => {
   );
 };
 
-// export function useAuth() {
-//   const context = useContext(AuthContext);
-//   return context;
-// }
+export function useAuth() {
+  const context = useContext(AuthContext);
+  return context;
+}

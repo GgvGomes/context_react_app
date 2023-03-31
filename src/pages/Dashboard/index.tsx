@@ -2,10 +2,10 @@ import { Button, Text, View } from "react-native";
 
 import AuthContext from "../../contexts/auth";
 import { useContext } from "react";
-import AsyncStorage from "@react-native-community/async-storage";
+// import AsyncStorage from "@react-native-community/async-storage";
 
 export function Dashboard() {
-  const { signed, singOut, user } = useContext(AuthContext);
+  const { singOut, user } = useContext(AuthContext);
 
   function handleSingOut() {
     singOut();
