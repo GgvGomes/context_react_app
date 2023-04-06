@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
 // import { useAsyncStorage } from '@react-native-async-storage/async-storage';
 import { View, ActivityIndicatorBase } from "react-native";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as auth from "../services/auth";
 import api from "../services/api";
 

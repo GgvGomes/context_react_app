@@ -1,13 +1,11 @@
-import { useContext } from "react";
-
 import AppDashboard from "./app.routes";
 import AuthRoutes from "./auth.routes";
 
-import AuthContext from "../contexts/auth";
-import { ActivityIndicatorBase, View, Text } from "react-native";
+import { View, Text } from "react-native";
+import { useAuth } from "../contexts/auth";
 
 export function Routes() {
-  const { signed, loading } = useContext(AuthContext);
+  const { signed, loading } = useAuth();
 
   if (loading) {
     return (

@@ -1,10 +1,9 @@
 import { Button, View } from "react-native";
 
-import AuthContext from "../../contexts/auth";
-import { useContext } from "react";
+import { useAuth } from "../../contexts/auth";
 
 export function SingIn() {
-  const { signed, user ,singIn } = useContext(AuthContext);
+  const { signed, user ,singIn } = useAuth();
 
   console.log(signed)
 
