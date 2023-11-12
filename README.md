@@ -24,5 +24,5 @@ This application was built using: React-native, JavaScript, Authenticator to rea
 
 <br/><br/>
 <h4 align="center"> 
-	 React Application 🚀🔥
+	 React-Native Application 🚀🔥
 </h4>
