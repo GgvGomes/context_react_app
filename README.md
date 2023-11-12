@@ -15,7 +15,7 @@ This application was built using: React-native, JavaScript, Authenticator to rea
  <a href="#">React-Native</a> • 
  <a href="#">Front-end</a> • 
  <a href="#">Css</a> • 
- <a href="#">Java Script</a> •  
+ <a href="#">Java Script</a> 
 </p>
 
 <p align="center">
