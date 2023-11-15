@@ -2,6 +2,11 @@
 
 Create a simple app with context to do login authentication.
 
+<p align="center" styles="display: flex; gap: 16px">
+	<img  src="https://github.com/GgvGomes/context_react_app/assets/80273727/77bbb467-6927-4fc6-be77-b0acd7836330" />
+	<img  src="https://github.com/GgvGomes/context_react_app/assets/80273727/09cac3e6-1a07-4006-bae2-cff8e254c74d" />
+</p>
+
 # Why?
 
 I needed to practice some front-end practices. One of them was authentication using react and its tools. If you ever need to use it, feel free to take a look.
